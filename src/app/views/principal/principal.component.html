@@ -1,0 +1,13 @@
+<div class="place-container">
+
+    <app-place-card 
+
+    *ngFor="let lugar of lugares"
+    [titles]= "lugar.titles"
+    [province]= "lugar.province"
+    [coordinates]="lugar.coordinates"
+    [poster]= "lugar.poster"
+
+    ></app-place-card>
+    
+</div>

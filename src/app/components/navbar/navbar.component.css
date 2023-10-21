@@ -1,0 +1,30 @@
+.navbar{
+display: flex;
+width: 100%;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.5);
+box-shadow: 2px 2px 2px gray;
+height: 55px;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 1000;
+
+.navbar__item{
+
+    
+    .navbar__item-img{
+        height: 54px;
+        width: 54px;
+        justify-content: flex-start;
+    
+    }
+    .navbar__item-links{
+    
+        padding: 100px;
+        font-weight: 600;
+        height: 54px;
+
+    }
+}
+}

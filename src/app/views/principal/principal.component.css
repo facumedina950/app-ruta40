@@ -1,0 +1,10 @@
+.place-container{
+    padding-top: 75px;
+    margin-top: 0px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(73, 173, 135, 0.288);
+    background-image: url(https://img.freepik.com/vector-gratis/patron-viaje-dibujado-mano_23-2149033537.jpg?w=740&t=st=1693920087~exp=1693920687~hmac=1a2f0af94d53d4c93b2456b669fc8367f866979ab7fde097d0858dd5e2f04339);
+}

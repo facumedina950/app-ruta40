@@ -1,0 +1,28 @@
+.place-card{
+    width: 334px;
+    
+
+    .place-card__image{
+        height: 250px;
+        width: 334px;
+    }
+    .place-card__info{
+        display: flex;
+        justify-content: space-between;
+    }
+    .place-card__title{
+        text-align: center;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    .place-card__province{
+        color: rgb(20, 119, 25);
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .place-card__coordinates{
+        color: brown;
+        font-weight: 900;
+        font-size: 16px;
+    }
+}

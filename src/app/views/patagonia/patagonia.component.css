@@ -1,0 +1,25 @@
+.container{
+    background-image: url(https://img.freepik.com/fotos-premium/arte-abstracto-chino-acuarela-arte-fondo-colorido-textura-diseno-simple-tinta-lavado-pintura_912113-187518.jpg);
+    margin-top: 75px;
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.column{
+    flex-basis: 48%;
+    text-align: justify;
+    color: black;
+    font-size: 13px;
+    font-family: "Open Sans",sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px; 
+}
+
+.column__video{
+display: flex;
+border-color: brown;
+}

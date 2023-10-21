@@ -1,0 +1,27 @@
+<div class="titulo">Usuarios</div>
+<button (click)="guardarUsuario()">Agregar Usuario</button>
+<div>
+    <div class="card" *ngFor="let item of usuarios">
+       <div class="card__info"> 
+       <p><u>ID:</u> {{item.id}}</p>
+       <p><u>NAME:</u> {{item.name}}</p>
+       <p><u>USERNAME:</u> {{item.username}}</p>
+       <p><u>EMAIL:</u> {{item.email}}</p>
+       <p><u>ADDRESS STREET:</u> {{item.address.street}}</p>
+       <p><u>ADDRESS SUITE:</u> {{item.address.suite}}</p>
+       <p><u>ADDRESS CITY:</u> {{item.address.city}}</p>
+       <p><u>ZIPCODE:</u> {{item.address.zipcode}}</p>
+       <p><u>GEO LAT:</u> {{item.address.geo.lat}}</p>
+       <p><u>GEO LNG:</u> {{item.address.geo.lng}}</p>
+       <p><u>PHONE:</u> {{item.phone}}</p>
+       <p><u>WEBSIITE: </u>{{item.website}}</p>
+       <p><u>COMPANY NAME:</u> {{item.company.name}}</p>
+       <p><u>COMPANY CATCHPHRASE:</u> {{item.company.catchPhrase}}</p>
+       <p><u>COMPANY BS:</u> {{item.company.bs}}</p>
+
+       
+        </div>
+
+    </div>
+</div>
+
